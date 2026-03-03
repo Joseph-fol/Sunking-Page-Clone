@@ -456,9 +456,9 @@
 
   <!-- Frequently Asked Questions -->
   <section class="bg-white lg:grid overflow-x-hidden">
-    <div class=" md:grid md:grid-cols-2 space-x-10 md:gap-4">
+    <div class=" md:grid md:grid-cols-2  md:gap-4">
 
-      <div class="lg:px-20 px-10 py-10 lg:place-content-center">
+      <div class="lg:px-20 px-7 py-10 lg:place-content-center">
         <h1 class="text-4xl font-semibold text-black sm:text-5xl leading-tight my-10">What Are Our Customers Saying?
         </h1>
 
@@ -472,8 +472,9 @@
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                   <div class="flex flex-col overflow-hidden rounded-lg">
+
                     <div class="flex flex-2 flex-col justify-between w-full px-6 py-6 bg-[#f5f3f0]">
-                      <div class="flex-1">
+                      <div class="flex-2">
                         <p class="text-lg font-medium text-gray-900">
                           One of the best decisions I made in my life was to choose Sunking. Before I bought the Sun
                           King Home 500X with HD TV, I was burning N7000 of fuel everyday just to keep my TV running fot
@@ -575,42 +576,34 @@
               </div>
 
               <!-- Slider controls -->
-              <button type="button"
-                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                data-carousel-prev>
-                
-                <span
-                  class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                  <svg class="w-5 h-5 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                    width="24" height="24" fill="none" viewBox="0 0 24 24">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="m15 19-7-7 7-7" />
-                  </svg>
-                  <span class="sr-only">Previous</span>
-                </span>
-              </button>
+              <div class="flex block ml-auto">
+                <button type="button"
+                  class="cursor-pointer group focus:outline-none"
+                  data-carousel-prev>
 
-              <button type="button"
-                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                data-carousel-next>
-                <span
-                  class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                  <svg class="w-5 h-5 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                    width="24" height="24" fill="none" viewBox="0 0 24 24">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="m9 5 7 7-7 7" />
-                  </svg>
-                  <span class="sr-only">Next</span>
-                </span>
-              </button>
+                  <span class="">
+                    <img src="./Home-Sun King  Image/arrow-left.svg" alt="">
+                  </span>
+
+                </button>
+
+                <button type="button"
+                  class=" flex items-center justify-center h-fullcursor-pointer group focus:outline-none"
+                  data-carousel-next>
+
+                  <span class="">
+                    <img src="./Home-Sun King  Image/arrow-right.svg" alt="">
+                  </span>
+                </button>
+              </div>
             </div>
 
           </div>
       </div>
 
       <!-- Responsive Image -->
-      <div class="mt-6 md:mt-0 hidden lg:block md:block">
-        <img class="w-full h-full  object-cover md:h-full lg:h-[700px]"
+      <div class="mt-6 md:mt-0 hidden  lg:block md:block">
+        <img class="w-full h-full object-cover md:h-full lg:h-[700px]"
           src="./Home-Sun King  Image/imgi_7_DSC_6677-1-scaled.jpg" alt="Any Image Here" />
       </div>
 
