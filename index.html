@@ -30,7 +30,7 @@
         <!-- Desktop menu -->
         <div class="hidden sm:block sm:ml-6">
           <ul class="flex space-x-2 gap-[30px] mx-auto text-gray-700 font-medium items-center justify-center">
-            <li><a href="#" class="hover:text-blue-600 px-3 py-2 rounded-md text-md fw-bold text-black">Solar System</a>
+            <li><a href="#" class="hover:text-blue-600 px-3 py-2 rounded-md text-lg fw-bold">Solar System</a>
             </li>
             <li><a href="#" class="hover:text-blue-600 px-3 py-2 rounded-md text-lg">Portable Solar</a></li>
             <li><a href="#" class="hover:text-blue-600 px-3 py-2 rounded-md text-lg">Smartphones</a></li>
@@ -38,7 +38,7 @@
 
             <!-- More Info Dropdown -->
             <li class="relative group">
-              <button class="hover:text-blue-600 px-3 py-2 rounded-md text-lg flex items-center">
+              <button class="hover:text-blue-600 px-3 py-2 z-20 rounded-md text-lg flex items-center">
                 About Us
                 <svg class="ml-1 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd"
@@ -112,10 +112,9 @@
     </div>
   </nav>
 
-
   <section
     class="relative min-h-screen flex flex-col items-center justify-center text-center text-white overflow-hidden">
-    <div class="video-docker absolute inset-0 w-full h-full">
+    <div class="video-docker inset-0 w-full h-full">
       <video class="min-w-full min-h-full absolute object-cover"
         src="https://ng.sunking.com/wp-content/uploads/2025/02/V3_website-vid-ng-lite.mp4" type="video/mp4" loop muted
         autoplay preload>
@@ -123,7 +122,6 @@
     </div>
 
     <div class="video-content relative z-10 w-full max-w-7xl mx-auto px-6 py-12 md:py-20 lg:py-32">
-
       <h1 class="text-[40px] font-bold leading-tight md:text-[50px] lg:text-[80px] block mb-4">
         Hello, Nigeria!
       </h1>
@@ -176,9 +174,7 @@
 
 
   <section class="bg-yellow-400 lg:grid overflow-x-hidden">
-
     <div class="lg:py-0 py-24 md:grid md:grid-cols-2 md:items-center md:gap-4">
-
       <div class="text-left px-8 lg:px-20">
         <h1 class="text-4xl font-bold text-black sm:text-5xl mt-5 mb-2">
           Discover Your Perfect Solar-Powered Solution
@@ -358,7 +354,6 @@
         </div>
 
         <div class="flex flex-col overflow-hidden rounded-lg">
-
           <div class="flex-shrink-0 p-5 bg-[#f5f3f0]">
             <p class="py-7 text-3xl font-bold">Solar Home Systems</p>
             <img class="h-[59%] w-full object-cover" src="./Home-Sun King  Image/imgi_9_image-1-2-scaled.jpg" alt="">
@@ -411,7 +406,6 @@
 
   <section class="bg-[#42bfd2] px-8 py-16 lg:px-20">
     <div class="max-w-screen-xl text-left block lg:flex md:block justify-between align-items-center">
-
       <div>
         <h1 class="text-3xl font-bold text-black ">
           Unsure which solar solution is right for you?
@@ -420,198 +414,282 @@
           Compare our most popular solar systems using this handy tool
         </p>
       </div>
-
       <div>
         <button
           class="py-3 mt-4 font-semibold rounded-full hover:bg-yellow-400 hover:border-none border border-black text-lg  px-10 ">Compare
           products</button>
       </div>
-
     </div>
   </section>
 
   <!-- Logo Grid -->
-  <section class="bg-[#3f4d33] py-4">
-    <div class="p-8 mx-auto max-w-2xl xl:px-0 ">
-
-      <div class="flex flex-col justify-center">
-
-        <div class="text-xl text-center text-semibold text-white">
+  <section class="bg-[#3f4d33] py-6 sm:py-10">
+    <div class="px-4 sm:px-8 mx-auto max-w-6xl xl:px-0">
+      <div class="flex flex-col justify-center items-center">
+        <div class="text-lg sm:text-xl text-center font-semibold text-white">
           As Seen in the Press
         </div>
-
-        <div class="flex-wrap lg:flex  lg:gap-10 justify-center mt-10 ">
-
-          <img src="./Home-Sun King  Image/forbes.png" width="120" alt="">
-          <img src="./Home-Sun King  Image/the-guarfian-logo.png" width="200" alt="">
-          <img src="./Home-Sun King  Image/financial-times.svg" width="200" alt="">
-          <img src="./Home-Sun King  Image/cnn.svg" width="100" alt="">
-          <img src="./Home-Sun King  Image/punch-logo.png" width="100" alt="">
-
+        <div
+          class="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 items-center justify-items-center">
+          <img src="./Home-Sun King  Image/forbes.png" alt="Forbes logo" class="h-8 sm:h-10 w-auto object-contain">
+          <img src="./Home-Sun King  Image/the-guarfian-logo.png" alt="The Guardian logo"
+            class="h-8 sm:h-10 w-auto object-contain">
+          <img src="./Home-Sun King  Image/financial-times.svg" alt="Financial Times logo"
+            class="h-8 sm:h-10 w-auto object-contain">
+          <img src="./Home-Sun King  Image/cnn.svg" alt="CNN logo" class="h-8 sm:h-10 w-auto object-contain">
+          <img src="./Home-Sun King  Image/punch-logo.png" alt="Punch logo" class="h-8 sm:h-10 w-auto object-contain">
         </div>
       </div>
     </div>
   </section>
 
 
-  <!-- Frequently Asked Questions -->
+  <!-- Customer Review Section-->
   <section class="bg-white lg:grid overflow-x-hidden">
-    <div class=" md:grid md:grid-cols-2  md:gap-4">
+    <div class="md:flex md:gap-2">
 
       <div class="lg:px-20 px-7 py-10 lg:place-content-center">
         <h1 class="text-4xl font-semibold text-black sm:text-5xl leading-tight my-10">What Are Our Customers Saying?
         </h1>
 
-        <section class="max-w-3xl ">
+        <section class="max-w-3xl">
           <div class="space-y-4">
+            <div id="controls-carousel" class="relative w-full">
 
-            <div id="controls-carousel" class="relative w-full" data-carousel="static">
               <!-- Carousel wrapper -->
-              <div class="relative h-56 overflow-hidden rounded-base md:h-96">
+              <div class="relative overflow-visible rounded-base">
 
-                <!-- Item 1 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <div class="flex flex-col overflow-hidden rounded-lg">
-
+                <!-- Comment 1-->
+                <div class="duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex flex-col rounded-lg">
                     <div class="flex flex-2 flex-col justify-between w-full px-6 py-6 bg-[#f5f3f0]">
+
                       <div class="flex-2">
-                        <p class="text-lg font-medium text-gray-900">
-                          One of the best decisions I made in my life was to choose Sunking. Before I bought the Sun
-                          King Home 500X with HD TV, I was burning N7000 of fuel everyday just to keep my TV running fot
-                          my family's entertainment, which ran me into debt. <br>
-
-                          Since I got the Sun King TV, I have saved both myself and my family, and I can now use my
-                          money to invest in other parts of my life
-
+                        <p class="text-base sm:text-lg leading-relaxed font-semibold text-gray-900">
+                          Sun King brought light and life to my home. Now we can cook food in comfort, my children can
+                          read at night, and I can enjoy good family moments watching TV with my family. I am happy
+                          being a Sun King customer!
                         </p>
-                      </div>
+                        <div class="flex gap-4 align-items-center mt-4 mb-8 sm:mb-12 lg:mb-20">
+                          <div class="">
+                            <img src="./Home-Sun King  Image/customer1.png" width="80" class="rounded-4xl" alt="">
+                          </div>
 
-                      <div class="mb-7 mt-5">
-                        <button
-                          class="bg-yellow-400 rounded-full py-[10px] w-full text-black font-bold hover:bg-yellow-300">Browse
-                          our
-                          range</button>
+                          <div class="mt-2">
+                            <h4 class="font-bold text-base sm:text-lg">Mr. Iwuamadi Bonaventure</h3>
+                              <p class="text-sm sm:text-base">Businessman</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <!-- Item 1 -->
+                <!-- Comment 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                   <div class="flex flex-col overflow-hidden rounded-lg">
                     <div class="flex flex-2 flex-col justify-between w-full px-6 py-6 bg-[#f5f3f0]">
                       <div class="flex-1">
-                        <p class="text-lg font-medium text-gray-900">
-                          One of the best decisions I made in my life was to choose Sunking. Before I bought the Sun
-                          King Home 500X with HD TV, I was burning N7000 of fuel everyday just to keep my TV running fot
-                          my family's entertainment, which ran me into debt. <br>
+                        <p class="text-base sm:text-lg leading-relaxed font-medium text-gray-900">
 
-                          Since I got the Sun King TV, I have saved both myself and my family, and I can now use my
-                          money to invest in other parts of my life
-
+                          My cold room business faced frequent power outages, spoiling food, leading to financial
+                          losses. I bought Sun King’s solar inverter system using EasyBuy. The system maintains optimal
+                          temperatures for my fish and vegetables. I have boosted sales and no longer pay for expensive
+                          fuel for the generator.
                         </p>
                       </div>
 
-                      <div class="mb-7 mt-5">
-                        <button
-                          class="bg-yellow-400 rounded-full py-[10px] w-full text-black font-bold hover:bg-yellow-300">Browse
-                          our
-                          range</button>
+                      <div class="flex gap-4 align-items-center mt-4 mb-8 sm:mb-12 lg:mb-20">
+                        <div class="">
+                          <img src="./Home-Sun King  Image/customerImage2.png" width="80" class="rounded-4xl" alt="">
+                        </div>
+
+                        <div class="mt-2">
+                          <h4 class="font-bold text-base sm:text-lg">Fasasi Olatomiwa Olawale</h3>
+                            <p class="text-sm sm:text-base">Businesswoman</p>
+                        </div>
                       </div>
+
                     </div>
                   </div>
                 </div>
 
-                <!-- Item 1 -->
+                <!-- Comment 3 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                   <div class="flex flex-col overflow-hidden rounded-lg">
                     <div class="flex flex-2 flex-col justify-between w-full px-6 py-6 bg-[#f5f3f0]">
                       <div class="flex-1">
-                        <p class="text-lg font-medium text-gray-900">
+                        <p class="text-base sm:text-lg leading-relaxed font-medium text-gray-900">
                           One of the best decisions I made in my life was to choose Sunking. Before I bought the Sun
                           King Home 500X with HD TV, I was burning N7000 of fuel everyday just to keep my TV running fot
-                          my family's entertainment, which ran me into debt. <br>
+                          my family's entertainment, which ran me into debt. <br> <br>
 
                           Since I got the Sun King TV, I have saved both myself and my family, and I can now use my
                           money to invest in other parts of my life
-
                         </p>
                       </div>
 
-                      <div class="mb-7 mt-5">
-                        <button
-                          class="bg-yellow-400 rounded-full py-[10px] w-full text-black font-bold hover:bg-yellow-300">Browse
-                          our
-                          range</button>
+                      <div class="flex gap-4 align-items-center mt-4 mb-8 sm:mb-12 lg:mb-20">
+                        <div class="">
+                          <img src="./Home-Sun King  Image/customerImage3.png" width="80" class="rounded-4xl" alt="">
+                        </div>
+
+                        <div class="mt-2">
+                          <h4 class="font-bold text-base sm:text-lg">Ms. Akomolafe Sherifat Amope</h3>
+                            <p class="text-sm sm:text-base">Business Owner</p>
+                        </div>
                       </div>
+
                     </div>
                   </div>
                 </div>
 
-                <!-- Item 1 -->
+                <!-- Comment 4 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                   <div class="flex flex-col overflow-hidden rounded-lg">
                     <div class="flex flex-2 flex-col justify-between w-full px-6 py-6 bg-[#f5f3f0]">
                       <div class="flex-1">
-                        <p class="text-lg font-medium text-gray-900">
-                          One of the best decisions I made in my life was to choose Sunking. Before I bought the Sun
-                          King Home 500X with HD TV, I was burning N7000 of fuel everyday just to keep my TV running fot
-                          my family's entertainment, which ran me into debt. <br>
-
-                          Since I got the Sun King TV, I have saved both myself and my family, and I can now use my
-                          money to invest in other parts of my life
-
+                        <p class="text-base sm:text-lg leading-relaxed font-medium text-gray-900">
+                          Our primary health centre in Nasarawa State used to operate without light or power. We used to
+                          use phone lights to conduct childbirths. Today, the Sun King Home 200X is the major means of
+                          power in the health centre, improving the safety and experience of our patients.
                         </p>
                       </div>
 
-                      <div class="mb-7 mt-5">
-                        <button
-                          class="bg-yellow-400 rounded-full py-[10px] w-full text-black font-bold hover:bg-yellow-300">Browse
-                          our
-                          range</button>
+                      <div class="flex gap-4 align-items-center mt-4 mb-8 sm:mb-12 lg:mb-20">
+                        <div class="">
+                          <img src="./Home-Sun King  Image/customerImage4.jpg" width="80" class="rounded-4xl" alt="">
+                        </div>
+
+                        <div class="mt-2">
+                          <h4 class="font-bold text-base sm:text-lg">Ms. Bright Okoh</h3>
+                            <p class="text-sm sm:text-base">Health Worker</p>
+                        </div>
                       </div>
+
                     </div>
                   </div>
                 </div>
+
+                <!-- Comment 5 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex flex-col overflow-hidden rounded-lg">
+                    <div class="flex flex-2 flex-col justify-between w-full px-6 py-6 bg-[#f5f3f0]">
+                      <div class="flex-1">
+                        <p class="text-base sm:text-lg leading-relaxed font-medium text-gray-900">
+                          Before I bought my Sun King product I had a huge overhead cost of running my business,
+                          including the cost of fuelling my generator and the maintenance cost of my generator. This
+                          meant me closing my pharmacy early in the evening because of no light and and no fuel. Now, I
+                          now run my business till when I choose to close without fear, and it has really helped to save
+                          me running costs.
+                        </p>
+                      </div>
+
+                      <div class="flex gap-4 align-items-center mt-4 mb-8 sm:mb-12 lg:mb-20">
+                        <div id="imageChange">
+                          <img src="./Home-Sun King  Image/customerImage5.png" width="80" class="rounded-4xl" alt="">
+                        </div>
+
+                        <div class="mt-2">
+                          <h4 class="font-bold text-base sm:text-lg">Ejike Ugwu</h3>
+                            <p class="text-sm sm:text-base">Pharmacist</p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
               </div>
 
               <!-- Slider controls -->
               <div class="flex block ml-auto">
-                <button type="button"
-                  class="cursor-pointer group focus:outline-none"
-                  data-carousel-prev>
-
+                <button type="button" class="cursor-pointer group focus:outline-none" onclick="previousSlide()">
                   <span class="">
                     <img src="./Home-Sun King  Image/arrow-left.svg" alt="">
                   </span>
-
                 </button>
 
                 <button type="button"
                   class=" flex items-center justify-center h-fullcursor-pointer group focus:outline-none"
-                  data-carousel-next>
+                  onclick="nextSlide()">
 
                   <span class="">
                     <img src="./Home-Sun King  Image/arrow-right.svg" alt="">
                   </span>
                 </button>
               </div>
-            </div>
 
+            </div>
           </div>
       </div>
 
       <!-- Responsive Image -->
-      <div class="mt-6 md:mt-0 hidden  lg:block md:block">
-        <img class="w-full h-full object-cover md:h-full lg:h-[700px]"
-          src="./Home-Sun King  Image/imgi_7_DSC_6677-1-scaled.jpg" alt="Any Image Here" />
+      <div class="mt-6 md:mt-0 hidden lg:block md:block">
+        <img class="w-170 h-full object-cover md:h-full lg:h-[700px]" alt="Customer House image 1" id="slide-image" />
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#42bfd2] px-8 py-16 lg:px-20">
+    <div class="max-w-screen-xl text-left block lg:flex md:block justify-between align-items-center">
+      <div>
+        <h1 class="text-3xl font-bold text-black ">
+          Need an Expert Opinion?
+        </h1>
+        <p class=" text-base font-semibold lg:text-[19px] pt-7 text-black sm:text-lg/relaxed">
+          Our personal solar advisors are here to help.
+        </p>
+      </div>
+      <div>
+        <button
+          class="py-3 mt-4 font-semibold rounded-full hover:bg-yellow-400 hover:border-none border border-black text-lg  px-10 ">Speak
+          to us</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="bg-[#f5f3f0]">
+    <div class="mx-auto flex max-w-7xl flex-col justify-center gap-10 px-6 py-16 md:gap-10 md:px-10 lg:flex-row lg:gap-20 ">
+
+      <div class="shrink-0">
+        <img src="./Home-Sun King  Image/agent-with-client.jpg"
+          class="h-[320px] w-[320px] rounded-full object-cover sm:h-[420px] sm:w-[420px] md:h-[520px] md:w-[520px] lg:h-[520px] lg:w-[520px]"
+          alt="About Sun King image">
+      </div>
+
+      <div class="p-2 md:p-6">
+        <h1 class="my-5 text-4xl font-bold md:text-5xl">About Sun King</h1>
+        <p class="text-md leading-6.5 pt-5">Sun King designs, distributes, installs, and finances solar energy solutions
+          for the 1.8 billion people without reliable access to electricity. From cost-effective solar lanterns and home
+          systems that provide entry-level access to electricity to powerful, multi-kilowatt-scale solar systems that
+          offer power equity with the traditional electrical grid, Sun King’s products meet diverse power and light
+          needs across Africa and Asia.</p>
+
+        <button class="py-3 mt-10 font-semibold rounded-full bg-yellow-400 text-lg  px-10 ">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#ffffff]">
+    <div
+      class="mx-auto flex max-w-7xl flex-col justify-center gap-10 px-6 py-16 md:gap-10 md:px-10 lg:flex lg:flex-row lg:gap-20 ">
+
+      <div class="p-2 md:p-6">
+        <h1 class="my-5 text-4xl font-bold md:text-5xl">Work With Us</h1>
+        <p class="text-md leading-6.5 pt-5">Sun King Nigeria has been recognised by <a href="" class="underline">Great Place to Work</a>  for it’s dynamic and friendly corporate culture. Click here to learn how you can work with Africa’s most popular home and business solar supplier. </p>
+
+        <button class="py-3 mt-10 font-semibold rounded-full bg-yellow-400 text-lg  px-10 ">Learn More</button>
+      </div>
+
+      <div class="shrink-0">
+          <img src="./Home-Sun King  Image/career-woman.jpg"
+            class="h-[320px] w-[320px] rounded-full object-cover sm:h-[420px] sm:w-[420px] md:h-[520px] md:w-[520px] lg:h-[520px] lg:w-[520px]" alt="Work with us image">
       </div>
 
     </div>
   </section>
-
-
-
 
 
 
@@ -633,12 +711,6 @@
       z-index: 1;
     }
   </style>
-
-
-
-
-
-
 
   <script>
     // Mobile menu toggle
@@ -662,7 +734,53 @@
         const icon = btn.querySelector('svg');
         content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + 'px'; icon.classList.toggle('rotate-180');
       });
-    }); 
+    });
+
+    // Carousel image shown on the right side of the testimonials section
+    let i = 0;
+    const carouselImages = [
+      "./Home-Sun King  Image/carouselImage1.jpg",
+      "./Home-Sun King  Image/carouselImage2.jpg",
+      "./Home-Sun King  Image/carouselImage3.jpg",
+      "./Home-Sun King  Image/carouselImage4.jpg",
+      "./Home-Sun King  Image/carouselImage5.jpg"
+    ];
+
+    function updateImage() {
+      const slideImage = document.getElementById("slide-image");
+      if (!slideImage) return;
+      slideImage.src = carouselImages[i];
+    }
+
+    function updateTestimonialCard() {
+      const testimonialCards = document.querySelectorAll("#controls-carousel [data-carousel-item]");
+      if (!testimonialCards.length) return;
+
+      testimonialCards.forEach((card, index) => {
+        if (index === i) {
+          card.classList.remove("hidden");
+        } else {
+          card.classList.add("hidden");
+        }
+      });
+    }
+
+    function updateSlide() {
+      updateImage();
+      updateTestimonialCard();
+    }
+
+    function nextSlide() {
+      i = (i + 1) % carouselImages.length;
+      updateSlide();
+    }
+
+    function previousSlide() {
+      i = (i - 1 + carouselImages.length) % carouselImages.length;
+      updateSlide();
+    }
+
+    window.addEventListener("load", updateSlide);
   </script>
   <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
 </body>
